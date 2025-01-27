@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Timeline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timeline-container">
+        <h1>My Interactive Timeline</h1>
+
+        <div class="timeline">
+            <div class="timeline-item" onclick="showDetails('item1')">
+                <div class="timeline-year">2020</div>
+                <div class="timeline-content" id="item1">
+                    <h3>Started Learning Web Development</h3>
+                    <p>I began learning HTML, CSS, and JavaScript and fell in love with coding.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item" onclick="showDetails('item2')">
+                <div class="timeline-year">2021</div>
+                <div class="timeline-content" id="item2">
+                    <h3> My First Portfolio Website</h3>
+                    <p>Designed and developed my first personal portfolio to showcase my skills.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item" onclick="showDetails('item3')">
+                <div class="timeline-year">2022</div>
+                <div class="timeline-content" id="item3">
+                    <h3>Woking in Infosys as System Engineer</h3>
+                    <p>I started working in Infosys as System Engineer on web development projects for clients.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item" onclick="showDetails('item4')">
+                <div class="timeline-year">2023</div>
+                <div class="timeline-content" id="item4">
+                    <h3>Launched My First Web App</h3>
+                    <p>Launched a full-fledged web application with features like user authentication.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
